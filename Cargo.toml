@@ -1,0 +1,9 @@
+[package]
+build = "build.rs"
+name = "fiber-coroutine"
+version = "0.1.0"
+authors = ["Alexandre Bléron <alex.bleron@gmail.com>"]
+[build-dependencies]
+gcc = "*"
+[dependencies]
+winapi = "*"
